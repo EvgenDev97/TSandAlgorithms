@@ -105,5 +105,11 @@
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
-  }
+  },
+  "files": [], //array of files for compilation
+  "include": [
+//    "/app*" all files with a name starting with app
+  ], //array of files for compilation with pattern support
+  "exclude": [],
+  "extends":  "" //way to ts.config
 }
